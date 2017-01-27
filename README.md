@@ -19,7 +19,7 @@ PERSONAL_EMAIL="YOUR_EMAIL_GOES_HERE"
 ## Additional Setup
 This script uses Amazon Simple Email Service.
 
-For the script to successfully send an email, you must verify the email set in the above environment variable.
+For the script to successfully send an email, you must verify the email from the above environment variable.
 
 This is a simple process explained in detail in [Amazon's Documentation](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/verify-email-addresses.html).
 
