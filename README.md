@@ -1,5 +1,5 @@
 # Pro Controller Watcher
-A Simple ruby script used to monitor the availabilty of the Nintendo Switch Pro Controller on Amazon.
+A simple ruby script used to monitor the availabilty of the [Nintendo Switch Pro Controller](https://www.amazon.com/dp/B01NAWKYZ0/) on Amazon.
 
 ## Dependecies
 
