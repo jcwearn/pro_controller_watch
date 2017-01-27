@@ -1,6 +1,7 @@
 require "rubygems"
 require "headless"
 require "watir"
+require_relative "email"
 
 Headless.ly do
   browser = Watir::Browser.new
@@ -10,6 +11,7 @@ Headless.ly do
     puts "Still unavailable"
   else
     puts "It's finally here"
+    Email.send
   end
 
   browser.close
