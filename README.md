@@ -1,0 +1,1 @@
+Simple ruby script that crawls Amazon page for Nintendo Switch controller.
