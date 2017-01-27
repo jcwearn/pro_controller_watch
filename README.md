@@ -24,6 +24,19 @@ For the script to successfully send an email, you must verify the email from the
 This is a simple process explained in detail in [Amazon's Documentation](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/verify-email-addresses.html).
 
 ## Usage
-`ruby watch.rb` will run the script and output the availabilty of the switch.
+`ruby watch.rb` will run the script and output the availabilty of the Nintendo Switch Pro Controller.
 
 ## Crontab
+This script can be run using crontab by using the `ruby_wrapper_sh` script.
+
+First replace the empty strings in this script with the previously mentioned environment variables.
+
+Then run `crontab -e` to setup a cron job
+
+My cron file contains like the following.
+```
+5 * * * * /home/ubuntu/pro_controller_watch/ruby_wrapper_sh > /home/ubuntu/pro_controller_watch/cron_log 2>&1
+```
+
+### Note
+You will have to replace the paths I use in the `ruby_wrapper_sh` script and in the cron file with the correct whatever path you are using locally.
