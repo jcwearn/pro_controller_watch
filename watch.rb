@@ -1,10 +1,10 @@
-require 'rubygems'
-require 'headless'
-require 'watir'
+require "rubygems"
+require "headless"
+require "watir"
 
 Headless.ly do
   browser = Watir::Browser.new
-  browser.goto 'https://www.amazon.com/dp/B01NAWKYZ0'
+  browser.goto "ttps://www.amazon.com/dp/B01NAWKYZ0"
 
   if /Currently unavailable/.match(browser.text)
     puts "Still unavailable"
