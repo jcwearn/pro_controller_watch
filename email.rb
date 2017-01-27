@@ -19,11 +19,11 @@ class Email
           },
           body: {
             text: {
-              data: "The Nintendo Switch Pro Controller is now available to preorder from amazon.com.  https://www.amazon.com/dp/B01NAWKYZ0",
+              data: "The Nintendo Switch Pro Controller is now available to preorder from Amazon.  https://www.amazon.com/dp/B01NAWKYZ0",
               charset: "UTF-8",
             },
             html: {
-              data: "The Nintendo Switch Pro Controller is now available to preorder from amazon.com.  https://www.amazon.com/dp/B01NAWKYZ0",
+              data: "The Nintendo Switch Pro Controller is now available to preorder from Amazon.  https://www.amazon.com/dp/B01NAWKYZ0",
               charset: "UTF-8",
             },
           },
