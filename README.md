@@ -39,4 +39,4 @@ My cron file contains like the following.
 ```
 
 ### Note
-You will have to replace the paths I use in the `ruby_wrapper_sh` script and in the cron file with the correct whatever path you are using locally.
+You will likely have to replace the paths I use in the `ruby_wrapper_sh` script and in the cron file with the correct path for your local setup.
