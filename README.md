@@ -40,3 +40,5 @@ My cron file contains like the following.
 
 ### Note
 You will likely have to replace the paths I use in the `ruby_wrapper_sh` script and in the cron file with the correct path for your local setup.
+
+I have only tested this script on Ubuntu Version 14.04.  It is not guarenteed to work elsewhere (or at all).
