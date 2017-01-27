@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export AWS_ACCESS_KEY_ID=""
+export AWS_SECRET_ACCESS_KEY=""
+export PERSONAL_EMAIL=""
+echo `/home/ubuntu/.rvm/wrappers/ruby-2.3.3/ruby /home/ubuntu/pro_controller_watch/watch.rb`
