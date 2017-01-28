@@ -1,8 +1,11 @@
-require "rubygems"
 require "date"
+require 'dotenv/load'
 require "headless"
 require "watir"
 require_relative "email"
+require_relative "phone"
+
+Dotenv.overload
 
 Headless.ly do
   browser = Watir::Browser.new
@@ -13,6 +16,7 @@ Headless.ly do
   else
     puts "It's finally here"
     Email.send
+    Phone.call
   end
 
   browser.close
