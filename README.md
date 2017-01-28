@@ -35,7 +35,7 @@ Then run `crontab -e` to setup a cron job
 
 My cron file contains like the following.
 ```
-5 * * * * /home/ubuntu/pro_controller_watch/ruby_wrapper_sh > /home/ubuntu/pro_controller_watch/cron_log 2>&1
+* * * * * /home/ubuntu/pro_controller_watch/ruby_wrapper_sh > /home/ubuntu/pro_controller_watch/cron_log 2>&1
 ```
 
 ### Note
