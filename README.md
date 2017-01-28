@@ -33,7 +33,7 @@ First replace the empty strings in this script with the previously mentioned env
 
 Then run `crontab -e` to setup a cron job
 
-My cron file contains like the following.
+My cron file contains the following:
 ```
 * * * * * /home/ubuntu/pro_controller_watch/ruby_wrapper_sh > /home/ubuntu/pro_controller_watch/cron_log 2>&1
 ```
