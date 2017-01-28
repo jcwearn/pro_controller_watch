@@ -3,4 +3,10 @@
 export AWS_ACCESS_KEY_ID=""
 export AWS_SECRET_ACCESS_KEY=""
 export PERSONAL_EMAIL=""
+export TWILIO_AUTH_TOKEN=""
+export TWILIO_ACCOUNT_SID=""
+export TWIML_URL=""
+export TO_PHONE_NUMBER=""
+export FROM_PHONE_NUMBER=""
+
 echo `/home/ubuntu/.rvm/wrappers/ruby-2.3.3/ruby /home/ubuntu/pro_controller_watch/watch.rb`
