@@ -15,9 +15,25 @@ Headless.ly do
     puts "Still unavailable as of #{DateTime.now}"
   else
     puts "It's finally here"
-    Email.send
-    Phone.call
+    send_alerts if should_alert?
   end
 
   browser.close
+end
+
+def should_alert?
+  call_count = File.read("call_count").to_i
+  unless (call_count > 14)
+    File.open("call_count", "w") do |f|
+      f.puts call_count + 1
+    end
+    false
+  else
+    true
+  end
+end
+
+def send_alerts
+  Email.send
+  Phone.call
 end
