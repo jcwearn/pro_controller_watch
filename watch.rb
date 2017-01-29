@@ -27,9 +27,9 @@ def should_alert?
     File.open("call_count", "w") do |f|
       f.puts call_count + 1
     end
-    false
-  else
     true
+  else
+    false
   end
 end
 
